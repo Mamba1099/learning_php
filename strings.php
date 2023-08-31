@@ -15,6 +15,13 @@
 
         // fuctions reverses a string
         echo strrev("Hello, World!"); //output !dlroW ,olleH 
-    ?>
+
+        //texts searches for a specific text in a string
+        echo strpos("Hello, World", "world"); //output 6
+
+        //function replaces some characters within a string
+        echo str_replace('Word', 'Dolly', "Hello World");
+        // output Hello, Dolly
+    ?>  
 </body>
 </html>
