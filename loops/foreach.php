@@ -13,9 +13,20 @@
     //   } 
     $names = array('james', 'kevin', 'Alex', 'Martin', 'Victor', 'Max');
 
- foreach ($names as $value) {
-    echo ("$value <br>"); // output the values in the array
- }
+    foreach ($names as $value) {
+        echo ("$value <br>"); // output the values in the array
+    }
+    // outputs the value and the key and the value
+    $age = array(
+        "petter" => "35",
+        "james" => "23",
+        "kevin" => "43",
+        "jane" => "17" );
+    foreach($age as $x => $val) { // current key assigned value $x
+        // iterates through each element
+        echo("$x = $val <br>"); // outputs the currenet key
+    }
+    
     ?>
 </body>
 </html>
