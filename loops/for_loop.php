@@ -12,6 +12,10 @@
         // for (init counter; test counter; increment counter) {
         //      code to be executed for each iteration; }
 
+        // $x = 0; - Initialize the loop counter ($x), and set the start value to 0
+        // $x <= 10; - Continue the loop as long as $x is less than or equal to 10
+        // $x++ - Increase the loop counter value by 1 for each iteration
+
         for ($h = 0; $h <= 10; $h++) {
             echo ("number is: $h <br>");
         }
