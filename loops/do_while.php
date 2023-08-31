@@ -12,13 +12,13 @@
     //   do {
     //      code to be executed;
     //     while (condition is true); }
-    $t = 'ouch!';
+    $t = 1;
 
     do {
         echo ("$t <br>"); // increment ouch 9 times to satisfy the condition
         $t ++;
     }
-    while ($t <10);
+    while ($t < 10);
     ?>
 </body>
 </html>
