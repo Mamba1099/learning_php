@@ -16,7 +16,7 @@
     foreach ($names as $value) {
         echo ("$value <br>"); // output the values in the array
     }
-    // outputs the value and the key and the value
+    // outputs the value and the key 
     $age = array(
         "petter" => "35",
         "james" => "23",
