@@ -24,6 +24,15 @@
     person("Mark", "Refsnes", "2001");
     person("Mike", "Refsnes", "2003");
 
+    // default Arguement
+    declare (strict_type = 1); 
+    function measurements (int $max_height = 50) {
+        echo ("the max height is: $max_height <br>");
+    }
+    measurements(200);
+    measurements(); // this will use the default value of 50
+    measurements(499);
+
     
     ?>
 </body>
